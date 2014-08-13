@@ -1,5 +1,5 @@
-touch README.md
-git init
+touch README.md<br>
+git init<br>
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/wengjn/Tests.git
