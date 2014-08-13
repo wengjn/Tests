@@ -1,0 +1,18 @@
+#JAVA_HOME
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+alias ls="ls -G"
+alias ..="cd .."
+alias sshdsk="ssh jiannian.desktop.amazon.com"
+
+export CLICOLOR=1
+export LSCOLORS=gxfxaxdxcxegedabagacad
+export PATH=~/Applications/sbt/bin:$PATH
+
+alias ssh-desktop="ssh jiannian.desktop.amazon.com"
+alias git st="git status"
+alias git co="git checkout"
+
+#change prompt
+PS1_OLD=${PS1}
+export PS1="\[\033[1;34m\]\u\[\033[1;34m\]@\[\033[1;35m\]\W\[\033[0m\] \[\033[0;36m\]\A$ "
